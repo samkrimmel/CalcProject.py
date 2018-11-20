@@ -14,5 +14,7 @@ x = x2
 
 f2 = eval(f)
 
-d = (f2-f1)/0.001
+d = (f1-f2)/0.001
+
+print('Derivative at x = ',d)
 
