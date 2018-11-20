@@ -13,6 +13,7 @@ f2 = eval(f)
 d = (f2-f1)/0.001
 
 for i in range(r):
+    x = g
     g2 = g+0.001
     fg1 = eval(f)
     x = g2
