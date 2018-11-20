@@ -1,1 +1,18 @@
+#Sam K
+#Calc - do something
+
+f = input('Enter a function:')
+a = float(input('Enter left bound:'))
+b = float(input('Enter right bound:'))
+x = float(input('Enter an x value:'))
+
+x2 = x-0.001
+
+f1 = eval(f)
+
+x = x2
+
+f2 = eval(f)
+
+d = (f2-f1)/0.001
 
