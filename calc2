@@ -22,7 +22,9 @@ for i in range(r):
     
     x0 = g - (fg1/dg)
     
-print(x0)
+    g = x0
+    
+print('Zero at:',x0)
     
 print('Derivative at x = ',d)
 
