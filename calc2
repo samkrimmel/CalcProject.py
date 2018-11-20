@@ -4,7 +4,7 @@
 f = input('Enter a function:')
 x = float(input('Enter an x value:'))
 
-x2 = x-0.001
+x2 = x+0.001
 
 f1 = eval(f)
 
@@ -12,6 +12,6 @@ x = x2
 
 f2 = eval(f)
 
-d = (f1-f2)/0.001
+d = (f2-f1)/0.001
 
 print('Derivative at x = ',d)
