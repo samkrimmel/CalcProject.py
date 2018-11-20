@@ -3,15 +3,26 @@
 
 f = input('Enter a function:')
 x = float(input('Enter an x value:'))
+g = float(input('Enter a zero guess:'))
+r = int(input('Enter the number of times to do linearization:'))
 
 x2 = x+0.001
-
 f1 = eval(f)
-
 x = x2
-
 f2 = eval(f)
-
 d = (f2-f1)/0.001
 
+for i in range(r):
+    g2 = g+0.001
+    fg1 = eval(f)
+    x = g2
+    fg2 = eval(f)
+    dg = (fg2-fg1)/0.001
+    
+    x0 = g - (fg1/dg)
+    
+print(x0)
+    
 print('Derivative at x = ',d)
+
+
