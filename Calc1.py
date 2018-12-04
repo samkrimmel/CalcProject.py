@@ -27,4 +27,4 @@ for i in range(n):
     MRAM = MRAM + fm*dX
     x = x2
     
-print('LRAM =',LRAM,'RRAM =',RRAM,'MRAM =', MRAM)
+print('LRAM =',LRAM,'RRAM =',RRAM,'MRAM =', MRAM, 'Trapezoidal Rule =', TRAM)
