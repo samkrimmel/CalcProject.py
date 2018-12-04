@@ -22,7 +22,7 @@ for i in range(n):
     x2 = x
     f2 = eval(f)
     RRAM = RRAM + f2*dX
-    TRAM = TRAM + ((f2-f1)/2)*dX
+    TRAM = TRAM + ((f2+f1)/2)*dX
     x = (x1 +x2)/2
     fm = eval(f)
     MRAM = MRAM + fm*dX
