@@ -30,4 +30,4 @@ for i in range(n):
     SRAM = SRAM + (dX/3)*(f1+(4*fm)+f2)
     x = x2
     
-print('LRAM =',LRAM,'RRAM =',RRAM,'MRAM =', MRAM, 'Trapezoidal Rule =', TRAM)
+print('LRAM =',LRAM,'RRAM =',RRAM,'MRAM =', MRAM, 'Trapezoidal Rule =', TRAM, "Simpson's Rule =", SRAM)
