@@ -1,5 +1,5 @@
 #calc RRAM, LRAM, MRAM
-from math import sin
+from math import *
 
 a = float(input('Enter left bound'))
 b = float(input('Enter right bound'))
